@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: rgb(74, 17, 0);
+    font-family:'Courier New', Courier, monospace;
+    font-size: 25px;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/Design\ sem\ nome.png);
+    background-position: center;
+    background-size: contain;
+
+    display: flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+
+div .cabeçalho{
+    margin-bottom:1px;
+}
+
+.inputfield{
+    position: relative;
+}
+
+.inputfield{
+    position: relative;
+    margin-bottom: 12px;
+}
+
+div .input{
+    width: 250px;
+    height: 40px;
+    outline: none;
+    background-color: transparent;
+    border: 1px solid white;
+    border-radius: 30px;
+    margin-top: 20px;
+    padding: 10px;
+}
+
+input::placeholder{
+    color: aliceblue;
+    font-size: 0.8rem;
+    letter-spacing: 0.3px;
+}
+
+.user{
+    position: absolute;
+    top:45%;
+    right:9%;
+}
+
+.cadeado{
+    position: absolute;
+    top: 45%;
+    right: 9%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 136, 255);
+    font-weight: bold;
+}
+
+.left{
+    font-size: 0.9rem;
+    width: 250px;
+    outline: none;
+    border: none;
+}
+
+button{
+    outline: none;
+    border: none;
+    font-size: 0.8rem;
+    padding: 10px 105px;
+    border-radius: 30px;
+    margin: 15px 0px;
+    cursor: pointer;
+}
+
+p{
+    font-size: 0.8rem;
+}
+
+.mapa{
+    position:fixed;
+    top: 34.6%;
+    right: 20%;
+}
+
+.localização{
+    font-size: x-small;
+    position: absolute;
+    top: 61%;
+    right: 23.5%;
+}
+    .localização a {
+        text-decoration: none; /* Remove o sublinhado */
+        color: inherit;        /* Faz o link ter a mesma cor do H1 */
+        transition: color 0.3s ease;
+    }
+    .localização a:hover{
+        color:#F3E9c0;
+    }
+
+.whatsapp{
+    font-size: x-small;
+    position: absolute;
+    top: 70%;
+    right:22.5% ;
+}
+
+    .whatsapp a{
+        text-decoration: none;
+        color:#5E3023;
+        font-weight: bold;
+        transition: color 0.3s ease;
+    }
+    .whatsapp a:hover{
+        color:#F3E9c0;
+    }
+.email{
+    font-size: x-small;
+    position: absolute;
+    top: 76.5%;
+    right: 21%;
+}
+    .email a{
+        color:#5E3023; /* Define a cor do link */
+        text-decoration: none; /* Remove o sublinhado */
+        transition: color 0.3s; /* Transição suave na cor */
+    }
+    .email a:hover{
+        color: #F3E9c0;
+    }
